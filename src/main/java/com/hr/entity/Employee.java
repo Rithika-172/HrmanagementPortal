@@ -28,10 +28,11 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	@Column(name="EMPLOYYE_NAME", length = 100)
+	@Column(name = "employee_name", length = 100)
 	@NotNull
-	@Size(min = 3, max =100, message = "Employee Name must be between 3 to 100 characters." )
+	@Size(min = 3, max = 100, message = "Employee Name must be between 3 to 100 characters.")
 	private String employeeName;
+
 	
 	@Email(message = "Please provice valide email")
 	@NotNull(message = "Email is required")
