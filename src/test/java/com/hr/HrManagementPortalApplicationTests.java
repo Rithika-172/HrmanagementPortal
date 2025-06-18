@@ -8,6 +8,6 @@ class HrManagementPortalApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
+	} 
 
 }

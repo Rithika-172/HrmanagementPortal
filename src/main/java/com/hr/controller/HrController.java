@@ -34,7 +34,7 @@ public class HrController {
     @Autowired
     private CreatePostRepo createPostRepo;
 
-    @Autowired
+    @Autowired 
     private EmployeeRepo employeeRepo;
 
     @Autowired

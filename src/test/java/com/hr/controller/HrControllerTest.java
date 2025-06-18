@@ -25,7 +25,7 @@ import com.hr.reposetory.EmployeeRepo;
 import com.hr.service.HrService;
 
 @WebMvcTest(HrController.class)
-public class HrControllerTest {
+public class HrControllerTest { 
 
 	@Autowired
 	private MockMvc mockMvc;

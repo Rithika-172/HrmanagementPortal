@@ -20,10 +20,10 @@ import com.hr.reposetory.CreatePostRepo;
 import com.hr.reposetory.EmployeeRepo;
 
 public class HrServiceTest {
-
+ 
 	@Mock
 	private EmployeeRepo employeeRepo;
-	
+	 
 	@Mock
 	private CreatePostRepo createPostRepo;
 	

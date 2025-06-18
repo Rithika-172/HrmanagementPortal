@@ -37,7 +37,7 @@ public class Compose {
 	@Transient
 	private String position;
 
-	@CreationTimestamp
+	@CreationTimestamp 
 	private LocalDateTime createdDate;
 	
 	@UpdateTimestamp

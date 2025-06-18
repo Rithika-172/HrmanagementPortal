@@ -42,7 +42,7 @@ public class Employee {
 	@Pattern(regexp = "^(M|F)$", message = "Gender must be either Male, Female, or Other")
 	//@NotBlank
 	//@NotNull(message = "Gender is required")
-	private String gender;
+	private String gender;  
 	
 	
 	@Pattern(regexp = "^\\d{4}-\\d{2}-\\d{2}$", message = "Date of bitrh is required. of this format")

@@ -3,7 +3,7 @@
         const designation = document.getElementById("designation");
         designation.innerHTML = ''; // Clear previous options
 
-        let options = [];
+        let options = []; 
 
         // Define designation options based on department
         if (department === 'Development') {
