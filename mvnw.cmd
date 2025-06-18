@@ -68,7 +68,7 @@ switch -wildcard -casesensitive ( $($distributionUrl -replace '^.*/','') ) {
     $MVN_CMD = $script -replace '^mvnw','mvn'
     break
   }
-}
+} 
 
 # apply MVNW_REPOURL and calculate MAVEN_HOME
 # maven home pattern: ~/.m2/wrapper/dists/{apache-maven-<version>,maven-mvnd-<version>-<platform>}/<hash>
